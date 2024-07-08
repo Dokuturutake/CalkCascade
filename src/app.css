@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --theme-primary: #211951; 
+    --theme-secondary: #836FFF;
+    --theme-tertiary: #15F5BA; 
+    --theme-quaternary: #F0F3FF;
+}
