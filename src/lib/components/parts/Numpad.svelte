@@ -58,7 +58,7 @@
 </style>
 
 <div class="numpad">
-  {#each [1, 2, 3, 4, 5, 6, 7, 8, 9, 0] as number}
+  {#each [ 7, 8, 9, 4, 6, 7, 1, 2, 3, 0] as number}
     <button class="btn-square btn btn-outline btn-lg" 
      on:click={() => addNumber(number.toString())}>
       {number}
