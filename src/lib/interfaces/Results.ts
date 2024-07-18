@@ -1,4 +1,4 @@
-import type { IResult } from "./Result";
+import type { IResult } from "$lib/interfaces/Result";
 
 export interface IResults{
   results: IResult[];

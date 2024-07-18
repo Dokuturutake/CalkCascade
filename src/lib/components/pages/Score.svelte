@@ -12,7 +12,7 @@
   console.log(latestResult);
 
   let level: number = latestResults.difficultyLevel;
-  let time: number = latestResults.timeLimit;
+  let time: number = latestResults.timeLimit / 1000;
   let score: number = latestResult.length;
   let questionsPerSecond: number = time/score;
 
